@@ -1,0 +1,76 @@
+/*
+Theme Name: Suprema Requinte
+Description: Template exclusivo para o site Suprema Requinte desenvolvido por Ilson e Wesley.
+Author: Ilson
+Author URI: http://www.inobrega.com.br/
+Version: 1.0
+*/
+
+@import '../fontes/stylesheet.css';
+
+body{
+	background: url("../images/fundo.jpg");
+}
+header{
+	margin-top: 105px;
+	height: 70px;
+	background: #d34d68;
+	border-bottom: 14px solid #fff;
+}
+.menu{
+}
+.menu li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'League Gothic';
+	text-transform: uppercase;
+	padding: 15px 0 10px;
+	display: block;
+	background: url("../images/hover.png") no-repeat center 75px;
+	font-size: 22px;
+}
+.menu li a:hover, .current {
+	background: url("../images/hover.png") no-repeat center bottom;
+	text-shadow: 0 2px 8px #fff;
+	-moz-text-shadow: 0 2px 8px #fff;
+	-webkit-text-shadow: 0 2px 8px #fff;
+}
+.logo img {
+	position: absolute;
+	left: 50%;
+	margin-left: -181px;
+	top: 44px;
+	z-index: 99999;
+}
+
+section{
+	background: #fff;
+	border-top: 3px solid #ffcccc;
+	border-bottom: 3px solid #ffcccc;
+	padding: 40px 0px;
+}
+.menu li a, .menu li a:hover {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+footer {
+	border-top: 14px solid #fff;
+}
+.redessociais {
+	position: absolute;
+	right: 0;
+	background: #fff;
+	padding: 10px;
+}
+footer .copy {
+	margin: -17px auto 30px;
+	background: url("../images/footer.png") no-repeat center top;
+	text-align: center;
+	color: #cc3333;
+	font-family: serif;
+	height: 59px;
+	padding-top: 6px;
+}
