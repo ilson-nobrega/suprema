@@ -8,7 +8,7 @@
                 <?php the_content(); ?>
             </div>
             <div class="col-md-6">
-                <?php echo do_shortcode('[gallery]'); ?>
+                <?php echo do_shortcode('[gallery link="file"]'); ?>
             </div>
         </article>
     <?php endwhile?>
