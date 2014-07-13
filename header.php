@@ -15,16 +15,16 @@
         <header>
             <div class="container menu">
                 <nav class="row">
-                    <ul class="col-md-6 list-inline">
-                        <li><a href="#" class="current">DECORAÇÃO</a></li>
-                        <li><a href="#">LOCAÇÃO DE MATERIAIS</a></li>
-                    </ul>
-                    <?php wp_nav_menu( array('menu' => 'Principal Nav' )); ?>
-                    <ul class="col-md-6 list-inline text-right">
-                        <li><a href="#">SALÃO DE FESTAS</a></li>
-                        <li><a href="#">BUFFET</a></li>
-                        <li><a href="#">CONTATO</a></li>
-                    </ul>
+<!--                     <ul class="col-md-6 list-inline"> -->
+<!--                         <li><a href="#" class="current">DECORAÇÃO</a></li> -->
+<!--                         <li><a href="#">LOCAÇÃO DE MATERIAIS</a></li> -->
+<!--                     </ul> -->
+                    <?php wp_nav_menu( array('menu' => 'principal' )); ?>
+<!--                     <ul class="col-md-6 list-inline text-right"> -->
+<!--                         <li><a href="#">SALÃO DE FESTAS</a></li> -->
+<!--                         <li><a href="#">BUFFET</a></li> -->
+<!--                         <li><a href="#">CONTATO</a></li> -->
+<!--                     </ul> -->
                 </nav>
             </div>
         </header>

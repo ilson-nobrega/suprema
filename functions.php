@@ -9,6 +9,14 @@
 		// Registra os scripts do template
 		add_action('wp_enqueue_scripts','suprema_scripts');
 
+	/**
+	 * Registro do Menu
+	 */
+		register_nav_menus( array(
+		'principal' => 'Menu Principal',
+		) );
+		
+		
     /**
 	 * Adiciona os estilos utilizados no template
 	 */
@@ -28,5 +36,6 @@
 		    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js' );
 		    
 		}
+	
 	
 ?>
