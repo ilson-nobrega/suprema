@@ -19,6 +19,7 @@
                         <li><a href="#" class="current">DECORAÇÃO</a></li>
                         <li><a href="#">LOCAÇÃO DE MATERIAIS</a></li>
                     </ul>
+                    <?php wp_nav_menu( array('menu' => 'Principal Nav' )); ?>
                     <ul class="col-md-6 list-inline text-right">
                         <li><a href="#">SALÃO DE FESTAS</a></li>
                         <li><a href="#">BUFFET</a></li>
