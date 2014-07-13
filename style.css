@@ -1,7 +1,7 @@
 /*
 Theme Name: Suprema Requinte
 Description: Template exclusivo para o site Suprema Requinte desenvolvido por Ilson e Wesley.
-Author: Ilson
+Author: Inobrega
 Author URI: http://www.inobrega.com.br/
 Version: 1.0
 */
@@ -28,8 +28,11 @@ h1, h2, h3, h4 {
 	float: left;
 	margin-right: 30px;
 }
-#menu-menudireita li {
+#menu-menudireita {
 	float: right;
+}
+#menu-menudireita li {
+	float: left;
 	margin-left: 30px;
 }
 .menu li a {
@@ -69,7 +72,7 @@ section{
 	padding: 40px 0px;
 }
 .box {
-	background: #FFE2F9;
+	background: #fadbe2;
 	padding: 15px 0;
 	border-radius: 15px;
 	position: relative;
@@ -77,7 +80,7 @@ section{
 .box::after {
 	content: url(img/box-after.png);
 	position: absolute;
-	right: -10px;
+	right: -20px;
 	top: 50%;
 }
 
