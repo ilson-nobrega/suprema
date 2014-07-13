@@ -5,10 +5,10 @@
         Tudo para seu evento ficar ainda mais emocionante.
         </p>
         <h2>Seja bem vindo!</h2>
-        <img alt="Seja bem vindo!" src="./static/images/apresentacao.jpg">
+        <img alt="Seja bem vindo!" src="<?php echo get_stylesheet_directory_uri() ?>/img/apresentacao.jpg">
     </div>
     <div class="col-md-7">
-        <img class="img-responsive" alt="Banner" src="./static/images/banner.png">
+        <img class="img-responsive" alt="Banner" src="<?php echo get_stylesheet_directory_uri() ?>/img/banner.png">
     </div>
                     
 <?php get_footer(); ?>

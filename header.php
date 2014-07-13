@@ -12,7 +12,7 @@
     </head>
     <body>
         <div class="logo">
-            <a href="./"><img alt="Logo" src="./static/images/logo.png"></a>
+            <a href="./"><img alt="Logo" src="<?php echo get_stylesheet_directory_uri() ?>/img/logo.png"></a>
         </div>
         <header>
             <div class="container menu">
