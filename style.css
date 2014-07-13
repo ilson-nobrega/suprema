@@ -12,7 +12,7 @@ body{
 	background: url("img/fundo.jpg");
 }
 header{
-	margin-top: 105px;
+	margin-top: 73px;
 	height: 70px;
 	background: #d34d68;
 	border-bottom: 14px solid #fff;
@@ -22,10 +22,15 @@ h1, h2, h3, h4 {
 }
 .menu{
 	list-style-type: none;
+	margin: 0;
 }
 #menu-menuesquerda li {
 	float: left;
 	margin-right: 30px;
+}
+#menu-menudireita li {
+	float: right;
+	margin-left: 30px;
 }
 .menu li a {
 	text-decoration: none;
