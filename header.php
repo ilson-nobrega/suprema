@@ -1,10 +1,6 @@
 <html>
     <head>
         <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
-        <!-- Bootstrap -->
-        <link href="<?php echo get_stylesheet_directory_uri() ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <!-- Custom Css -->
-        <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>" />
 
         <?php wp_head(); ?>
         <!--[if lt IE 9]>

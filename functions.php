@@ -1,6 +1,15 @@
 <?php
 
     /**
+	 * Lista de todos os registros
+	 * OBS: Os registros das bibliotecas encontram-se no arquivo de cada uma
+	 */
+		// Registra os estilos personalizados
+		add_action('wp_enqueue_scripts','suprema_estilos');
+		// Registra os scripts do template
+		add_action('wp_enqueue_scripts','suprema_scripts');
+
+    /**
 	 * Adiciona os estilos utilizados no template
 	 */
 		function suprema_estilos(){
@@ -20,12 +29,4 @@
 		    
 		}
 	
-	/**
-	 * Lista de todos os registros
-	 * OBS: Os registros das bibliotecas encontram-se no arquivo de cada uma
-	 */
-		// Registra os estilos personalizados
-		add_action('wp_enqueue_scripts','suprema_estilos');
-		// Registra os scripts do template
-		add_action('wp_enqueue_scripts','suprema_scripts');
 ?>
