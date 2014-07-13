@@ -17,6 +17,9 @@ header{
 	background: #d34d68;
 	border-bottom: 14px solid #fff;
 }
+h1, h2, h3, h4 {
+	font-family: 'League Gothic' !important;
+}
 .menu{
 }
 .menu li a {
