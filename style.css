@@ -6,10 +6,10 @@ Author URI: http://www.inobrega.com.br/
 Version: 1.0
 */
 
-@import '../fontes/stylesheet.css';
+@import 'fontes/stylesheet.css';
 
 body{
-	background: url("../images/fundo.jpg");
+	background: url("img/fundo.jpg");
 }
 header{
 	margin-top: 105px;
@@ -26,11 +26,11 @@ header{
 	text-transform: uppercase;
 	padding: 15px 0 10px;
 	display: block;
-	background: url("../images/hover.png") no-repeat center 75px;
+	background: url("img/hover.png") no-repeat center 75px;
 	font-size: 22px;
 }
 .menu li a:hover, .current {
-	background: url("../images/hover.png") no-repeat center bottom;
+	background: url("img/hover.png") no-repeat center bottom;
 	text-shadow: 0 2px 8px #fff;
 	-moz-text-shadow: 0 2px 8px #fff;
 	-webkit-text-shadow: 0 2px 8px #fff;
@@ -67,7 +67,7 @@ footer {
 }
 footer .copy {
 	margin: -17px auto 30px;
-	background: url("../images/footer.png") no-repeat center top;
+	background: url("img/footer.png") no-repeat center top;
 	text-align: center;
 	color: #cc3333;
 	font-family: serif;

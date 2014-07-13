@@ -12,7 +12,7 @@
     </head>
     <body>
         <div class="logo">
-            <a href="./"><img alt="Logo" src="./static/images/logo.png"></a>
+            <a href="./"><img alt="Logo" src="<?php echo get_stylesheet_directory_uri() ?>/img/logo.png"></a>
         </div>
         <header>
             <div class="container menu">
@@ -37,10 +37,10 @@
                            Tudo para seu evento ficar ainda mais emocionante.
                         </p>
                         <h2>Seja bem vindo!</h2>
-                        <img alt="Seja bem vindo!" src="./static/images/apresentacao.jpg">
+                        <img alt="Seja bem vindo!" src="<?php echo get_stylesheet_directory_uri() ?>/img/apresentacao.jpg">
                     </div>
                     <div class="col-md-7">
-                        <img class="img-responsive" alt="Banner" src="./static/images/banner.png">
+                        <img class="img-responsive" alt="Banner" src="<?php echo get_stylesheet_directory_uri() ?>/img/banner.png">
                     </div>
                 </div>
             </div>
@@ -57,5 +57,5 @@
     <!-- jQuery - Google Hosted Libraries -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="./static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri() ?>/js/bootstrap.min.js"></script>
 </html>
