@@ -8,7 +8,7 @@
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body <?php body_class($class); ?>>
         <div class="logo">
             <a href="./"><img alt="Logo" src="<?php echo get_stylesheet_directory_uri() ?>/img/logo.png"></a>
         </div>

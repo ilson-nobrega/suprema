@@ -11,7 +11,7 @@
                 <h2><?php the_title(); ?></h2>
                 <?php the_content(); ?>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <?php echo do_shortcode('[gallery link="file"]'); ?>
             </div>
         </article>

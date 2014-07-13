@@ -83,6 +83,13 @@ section{
 	right: -20px;
 	top: 50%;
 }
+.page-id-27 .box::after {
+	left: -20px;
+	right: inherit;
+	transform:rotate(180deg);
+-ms-transform:rotate(180deg); /* IE 9 */
+-webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
+}
 
 footer {
 	border-top: 14px solid #fff;
