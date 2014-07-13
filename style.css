@@ -48,20 +48,6 @@ h1, h2, h3, h4 {
 	-moz-text-shadow: 0 2px 8px #fff;
 	-webkit-text-shadow: 0 2px 8px #fff;
 }
-.logo img {
-	position: absolute;
-	left: 50%;
-	margin-left: -181px;
-	top: 44px;
-	z-index: 99999;
-}
-
-section{
-	background: #fff;
-	border-top: 3px solid #ffcccc;
-	border-bottom: 3px solid #ffcccc;
-	padding: 40px 0px;
-}
 .menu li a, .menu li a:hover {
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -69,6 +55,32 @@ section{
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
+.logo img {
+	position: absolute;
+	left: 50%;
+	margin-left: -181px;
+	top: 44px;
+	z-index: 99999;
+}
+section{
+	background: #fff;
+	border-top: 3px solid #ffcccc;
+	border-bottom: 3px solid #ffcccc;
+	padding: 40px 0px;
+}
+.box {
+	background: #FFE2F9;
+	padding: 15px 0;
+	border-radius: 15px;
+	position: relative;
+}
+.box::after {
+	content: url(img/box-after.png);
+	position: absolute;
+	right: -10px;
+	top: 50%;
+}
+
 footer {
 	border-top: 14px solid #fff;
 }

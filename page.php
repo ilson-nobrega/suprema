@@ -2,8 +2,12 @@
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <article>
-            <div class="col-md-4">
-                <?php the_post_thumbnail('medium'); ?>
+            <div class="col-md-4 box">
+                <?php
+
+                    the_post_thumbnail('medium', array('class' => 'img-responsive'));
+        
+                  ?>
                 <h2><?php the_title(); ?></h2>
                 <?php the_content(); ?>
             </div>
