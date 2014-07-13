@@ -13,7 +13,7 @@
             <a href="./"><img alt="Logo" src="<?php echo get_stylesheet_directory_uri() ?>/img/logo.png"></a>
         </div>
         <header>
-            <div class="container menu">
+            <div class="container">
                 <nav class="row">
                     <?php wp_nav_menu(
                             array(

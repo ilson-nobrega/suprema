@@ -2,7 +2,7 @@
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <article>
-            <div class="col-md-4 box">
+            <div class="col-md-4 col-sm-4 box">
                 <?php
 
                     the_post_thumbnail('medium', array('class' => 'img-responsive'));
@@ -11,7 +11,7 @@
                 <h2><?php the_title(); ?></h2>
                 <?php the_content(); ?>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <?php echo do_shortcode('[gallery link="file"]'); ?>
             </div>
         </article>

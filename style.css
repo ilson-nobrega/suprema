@@ -17,12 +17,16 @@ header{
 	background: #d34d68;
 	border-bottom: 14px solid #fff;
 }
+.nopad {
+	padding: 0 !important;
+}
 h1, h2, h3, h4 {
 	font-family: 'League Gothic' !important;
 }
 .menu{
 	list-style-type: none;
-	margin: 0;
+	margin: 0 !important;
+	padding: 0 !important;
 }
 #menu-menuesquerda li {
 	float: left;
