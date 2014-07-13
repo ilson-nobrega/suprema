@@ -15,11 +15,19 @@
         <header>
             <div class="container menu">
                 <nav class="row">
+                    <?php wp_nav_menu(
+                            array(
+                                'menu' => 'menu_left'
+                            )); 
+                          wp_nav_menu(
+                            array(
+                                'menu' => 'menu_right'
+                            )); 
+                    ?>
 <!--                     <ul class="col-md-6 list-inline"> -->
 <!--                         <li><a href="#" class="current">DECORAÇÃO</a></li> -->
 <!--                         <li><a href="#">LOCAÇÃO DE MATERIAIS</a></li> -->
 <!--                     </ul> -->
-                    <?php wp_nav_menu( array('menu' => 'principal' )); ?>
 <!--                     <ul class="col-md-6 list-inline text-right"> -->
 <!--                         <li><a href="#">SALÃO DE FESTAS</a></li> -->
 <!--                         <li><a href="#">BUFFET</a></li> -->

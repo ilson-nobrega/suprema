@@ -10,12 +10,13 @@
 		add_action('wp_enqueue_scripts','suprema_scripts');
 
 	/**
-	 * Registro do Menu
+	 * Registro dos Menus
 	 */
-		register_nav_menus( array(
-		'principal' => 'Menu Principal',
-		) );
-		
+		register_nav_menus(
+		  array(
+    		'menu_left' => 'Menu Principal',
+    		'menu_right' => 'Menu Secundário'
+		  ));
 		
     /**
 	 * Adiciona os estilos utilizados no template
@@ -37,5 +38,8 @@
 		    
 		}
 	
-	
+	/**
+	 * Adicionando suporte para o tema
+	 */
+		add_theme_support( 'post-thumbnails' );
 ?>
