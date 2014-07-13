@@ -47,4 +47,9 @@
 	 */
 		add_theme_support('post-thumbnails');
 		add_theme_support('nav-menus');
+	
+	/**
+	 * Tirar galeria do  Content
+	 */
+		add_filter('the_content', 'strip_shortcodes');
 ?>

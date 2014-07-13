@@ -21,6 +21,11 @@ h1, h2, h3, h4 {
 	font-family: 'League Gothic' !important;
 }
 .menu{
+	list-style-type: none;
+}
+#menu-menuesquerda li {
+	float: left;
+	margin-right: 30px;
 }
 .menu li a {
 	text-decoration: none;
