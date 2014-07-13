@@ -8,15 +8,19 @@
 		add_action('wp_enqueue_scripts','suprema_estilos');
 		// Registra os scripts do template
 		add_action('wp_enqueue_scripts','suprema_scripts');
+		// Registra os menus do template
+		add_action('init','registra_menu');
 
 	/**
 	 * Registro dos Menus
 	 */
-		register_nav_menus(
-		  array(
-    		'menu_left' => 'Menu Principal',
-    		'menu_right' => 'Menu Secundário'
-		  ));
+		function registra_menu(){
+    		register_nav_menus(
+    		      array(
+        		      'menu_left' => __('Menu Principal'),
+        		      'menu_right' => __('Menu Secundário')
+    		      ));
+		}
 		
     /**
 	 * Adiciona os estilos utilizados no template
@@ -41,5 +45,6 @@
 	/**
 	 * Adicionando suporte para o tema
 	 */
-		add_theme_support( 'post-thumbnails' );
+		add_theme_support('post-thumbnails');
+		add_theme_support('nav-menus');
 ?>

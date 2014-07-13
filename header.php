@@ -17,11 +17,11 @@
                 <nav class="row">
                     <?php wp_nav_menu(
                             array(
-                                'menu' => 'menu_left'
+                                'theme_location'    => 'menu_left',
                             )); 
                           wp_nav_menu(
                             array(
-                                'menu' => 'menu_right'
+                                'theme_location'    => 'menu_right'
                             )); 
                     ?>
 <!--                     <ul class="col-md-6 list-inline"> -->
