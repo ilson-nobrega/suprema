@@ -156,3 +156,23 @@ footer .branco{
 	color: #d3929a;
 	font-family: 'League Gothic';
 }
+
+/* Para Browsers Webkit e Blink (Chrome, Safari, Opera 15+) - Pseudoelemento*/
+.footerContent form ::-webkit-input-placeholder{
+	color: #d3929a;
+}
+
+/* Para Firefox 4-18 - Usando pseudoclasses */
+.footerContent form :-moz-placeholder{
+	color: #d3929a;
+}
+
+/* Para Firefox 19+ - Usando pseudoelemento */
+.footerContent form ::-moz-placeholder{
+	color: #d3929a;
+}
+
+/* Para Internet Explorar - Usando pseudoelemento */
+.footerContent form :-ms-input-placeholder{
+	color: #d3929a;
+}
