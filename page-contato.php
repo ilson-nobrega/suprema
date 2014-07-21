@@ -4,6 +4,7 @@
         <article>
             <div class="col-md-8 col-sm-7">
                 <h2><?php the_title(); ?></h2>
+		<?php echo do_shortcode('[contact-form-7 id="35" title="Contato"]') ?>
                 <?php the_content(); ?>
             </div>
             <div class="col-md-4 col-sm-5 box">
